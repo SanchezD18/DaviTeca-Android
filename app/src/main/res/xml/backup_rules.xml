@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude specific files or directories that are not meant to be backed up.
+         For example, if you have a file that's created during development and contains
+         sensitive information, you can exclude it here. -->
+</full-backup-content> 

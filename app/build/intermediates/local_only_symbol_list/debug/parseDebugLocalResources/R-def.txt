@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable button_background
+drawable button_salir_background
+drawable ic_launcher
+drawable ic_launcher_foreground
+id btnLeyendo
+id btnLibros
+id btnResenas
+id btnSalir
+id tvTitulo
+layout activity_main
+string app_name
+style Theme.DaviTeca
+xml backup_rules
+xml data_extraction_rules
