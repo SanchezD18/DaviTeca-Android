@@ -1,6 +1,7 @@
 package com.daviteca.app;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -15,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     // Método para el botón Libros
     public void onLibrosClick(View view) {
-        Toast.makeText(this, "Sección de Libros", Toast.LENGTH_SHORT).show();
-        // Aquí puedes agregar la navegación a la pantalla de libros
+        Intent intent = new Intent(this, LibrosActivity.class);
+        startActivity(intent);
     }
 
     // Método para el botón Reseñas

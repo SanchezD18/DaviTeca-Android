@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color gray
 color purple_200
 color purple_500
 color purple_700
@@ -9,14 +10,39 @@ color teal_700
 color white
 drawable button_background
 drawable button_salir_background
+drawable disponibilidad_background
 drawable ic_launcher
 drawable ic_launcher_foreground
+drawable ic_libro
+drawable libro_background
+drawable search_background
+id btnAgregarLibro
+id btnBuscar
+id btnBuscarOnline
 id btnLeyendo
 id btnLibros
 id btnResenas
 id btnSalir
+id btnVolver
+id emptyStateLayout
+id etBuscar
+id headerLayout
+id ivLibro
+id ivPortada
+id progressBar
+id recyclerViewBuscar
+id recyclerViewLibros
+id searchLayout
+id tvAnio
+id tvAutor
+id tvDisponible
+id tvEditorial
 id tvTitulo
+layout activity_buscar_libros
+layout activity_libros
 layout activity_main
+layout item_libro
+layout item_libro_busqueda
 string app_name
 style Theme.DaviTeca
 xml backup_rules
